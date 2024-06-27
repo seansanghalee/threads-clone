@@ -10,6 +10,9 @@ import 'package:threads_clone/features/profile/profile_screen.dart';
 import 'package:threads_clone/features/search/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  static const routeName = "home";
+  static const routeUrl = "/";
+
   const HomeScreen({super.key});
 
   @override
