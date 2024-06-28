@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:threads_clone/features/home/home_screen.dart';
 import 'package:threads_clone/features/profile/profile_screen.dart';
-import 'package:threads_clone/features/settings/settings_screen.dart';
+import 'package:threads_clone/features/settings/views/settings_screen.dart';
 
 final router = GoRouter(
   initialLocation: "/",
